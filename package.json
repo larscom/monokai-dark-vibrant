@@ -2,13 +2,14 @@
     "name": "monokai-dark-vibrant",
     "displayName": "Monokai Dark Vibrant",
     "description": "An overly vibrant Monokai dark theme with colorful colors.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "larscom",
     "icon": "icons/icon.png",
     "author": "Lars Kniep <larskniep@outlook.com>",
     "license": "MIT",
     "galleryBanner": {
-        "color": "#1d1f23"
+        "color": "#FF3F4F",
+        "theme": "dark"
     },
     "repository": {
         "type": "git",
