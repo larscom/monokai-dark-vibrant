@@ -67,6 +67,22 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "Comment annotations",
+      "scope": ["storage.type.class.jsdoc"],
+      "settings": {
+        "foreground": "#19D1E5",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Comment variable",
+      "scope": ["variable.other.jsdoc"],
+      "settings": {
+        "foreground": "#FFFFFF",
+        "fontStyle": ""
+      }
+    },
     /**
      * Operators
      */
@@ -93,7 +109,7 @@
       "name": "Class/Constructor modifier",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#66D9FF",
+        "foreground": "#19D1E5",
         "fontStyle": ""
       }
     },
@@ -134,6 +150,14 @@
       }
     },
     {
+      "name": "Section",
+      "scope": ["entity.name.section"],
+      "settings": {
+        "foreground": "#FF3F4F",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Attribute",
       "scope": ["entity.other.attribute-name"],
       "settings": {
@@ -156,7 +180,7 @@
       "name": "Constant",
       "scope": ["constant.language"],
       "settings": {
-        "foreground": "#66D9FF",
+        "foreground": "#19D1E5",
         "fontStyle": ""
       }
     },
@@ -170,7 +194,7 @@
     },
     {
       "name": "String",
-      "scope": ["string.template", "string.quoted"],
+      "scope": ["string"],
       "settings": {
         "foreground": "#FFD945",
         "fontStyle": ""
@@ -212,10 +236,12 @@
      * Punctuations
      */
     {
-      "name": "Template expression begin/end",
+      "name": "Expressions begin/end",
       "scope": [
         "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end"
+        "punctuation.definition.template-expression.end",
+        "punctuation.definition.interpolation.begin.bracket.curly",
+        "punctuation.definition.interpolation.end.bracket.curly"
       ],
       "settings": {
         "foreground": "#FF3F4F",
@@ -224,7 +250,7 @@
     },
     {
       "name": "Variable accessor",
-      "scope": ["punctuation.accessor"],
+      "scope": ["punctuation.accessor", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#FFFFFF",
         "fontStyle": ""
@@ -238,22 +264,38 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "Seprator key/value mapping",
+      "scope": ["punctuation.separator.key-value.mapping"],
+      "settings": {
+        "foreground": "#FFFFFF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Headings",
+      "scope": ["punctuation.definition.heading"],
+      "settings": {
+        "foreground": "#ABABAB",
+        "fontStyle": ""
+      }
+    },
     /**
      * Keywords
      */
     {
-      "name": "Import and exports",
-      "scope": ["keyword.control"],
+      "name": "Keyword",
+      "scope": ["keyword"],
       "settings": {
         "foreground": "#FF3F4F",
         "fontStyle": ""
       }
     },
     {
-      "name": "Conditional",
-      "scope": ["keyword.control.conditional"],
+      "name": "Other keywords",
+      "scope": ["keyword.type"],
       "settings": {
-        "foreground": "#FF3F4F",
+        "foreground": "#19D1E5",
         "fontStyle": ""
       }
     },
@@ -264,7 +306,7 @@
       "name": "Support",
       "scope": ["support"],
       "settings": {
-        "foreground": "#66D9FF",
+        "foreground": "#19D1E5",
         "fontStyle": ""
       }
     },
@@ -273,6 +315,30 @@
       "scope": ["support.function"],
       "settings": {
         "foreground": "#81F900",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Support class",
+      "scope": ["support.class"],
+      "settings": {
+        "foreground": "#FF3F4F",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Support class built in",
+      "scope": ["support.class.builtin"],
+      "settings": {
+        "foreground": "#45A1ED",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Support link",
+      "scope": ["markup.underline"],
+      "settings": {
+        "foreground": "#19D1E5",
         "fontStyle": ""
       }
     }
