@@ -1,46 +1,46 @@
 {
-    "name": "monokai-dark-vibrant",
-    "displayName": "Monokai Dark Vibrant",
-    "description": "An overly vibrant Monokai dark theme with colorful colors.",
-    "version": "1.0.2",
-    "publisher": "larscom",
-    "icon": "icons/icon.png",
-    "author": "Lars Kniep <larskniep@outlook.com>",
-    "license": "MIT",
-    "galleryBanner": {
-        "color": "#FF3F4F",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/larscom/monokai-dark-vibrant/monokai-dark-vibrant.git"
-    },
-    "bugs": {
-        "url": "https://github.com/larscom/monokai-dark-vibrant/issues"
-    },
-    "homepage": "https://github.com/larscom/monokai-dark-vibrant/blob/master/README.md",
-    "engines": {
-        "vscode": "^1.15.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "Theme",
-        "Vibrant",
-        "Monokai",
-        "Bright",
-        "Colorful",
-        "Dark",
-        "OneDark"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai Dark Vibrant",
-                "uiTheme": "vs-dark",
-                "path": "./themes/MonokaiDarkVibrant-color-theme.json"
-            }
-        ]
-    }
+  "name": "monokai-dark-vibrant",
+  "displayName": "Monokai Dark Vibrant",
+  "description": "An overly vibrant Monokai dark theme with colorful colors.",
+  "version": "1.0.2",
+  "publisher": "larscom",
+  "icon": "icons/icon.png",
+  "author": "Lars Kniep <larskniep@outlook.com>",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#FF3F4F",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larscom/monokai-dark-vibrant/monokai-dark-vibrant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/larscom/monokai-dark-vibrant/issues"
+  },
+  "homepage": "https://github.com/larscom/monokai-dark-vibrant/blob/master/README.md",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Vibrant",
+    "Monokai",
+    "Bright",
+    "Colorful",
+    "Dark",
+    "OneDark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Dark Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MonokaiDarkVibrant-color-theme.json"
+      }
+    ]
+  }
 }
