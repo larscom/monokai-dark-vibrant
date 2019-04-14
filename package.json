@@ -38,17 +38,22 @@
     {
       "url": "https://vsmarketplacebadge.apphb.com/version/larscom.monokai-dark-vibrant.svg",
       "href": "https://marketplace.visualstudio.com/items/larscom.monokai-dark-vibrant",
-      "description": "Extension version"
+      "description": "Extension Version"
     },
     {
       "url": "https://vsmarketplacebadge.apphb.com/installs/larscom.monokai-dark-vibrant.svg",
       "href": "https://marketplace.visualstudio.com/items/larscom.monokai-dark-vibrant",
-      "description": "Extension installs"
+      "description": "Extension Installs"
     },
     {
       "url": "https://vsmarketplacebadge.apphb.com/rating/larscom.monokai-dark-vibrant.svg",
       "href": "https://marketplace.visualstudio.com/items/larscom.monokai-dark-vibrant",
       "description": "Extension Rating"
+    },
+    {
+      "url": "https://img.shields.io/github/license/larscom/monokai-dark-vibrant.svg",
+      "href": "https://github.com/larscom/monokai-dark-vibrant/blob/master/LICENSE",
+      "description": "Extension License"
     }
   ],
   "contributes": {
