@@ -322,6 +322,14 @@
       "name": "Support class",
       "scope": ["support.class"],
       "settings": {
+        "foreground": "#45A1ED",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Support class component",
+      "scope": ["support.class.component"],
+      "settings": {
         "foreground": "#FF3F4F",
         "fontStyle": ""
       }
