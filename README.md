@@ -17,8 +17,11 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 
 ## Preview 
 
-![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/typescript.png)
+### Snippet
+![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/typescript_zoom.png)
 
+### Fullscreen
+![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/typescript.png)
 
 ## Customization
 
