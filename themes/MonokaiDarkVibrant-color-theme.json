@@ -113,13 +113,12 @@
         "fontStyle": ""
       }
     },
-    //
     /**
      * Entities
      */
     {
       "name": "Functions",
-      "scope": ["entity.name.function"],
+      "scope": ["entity.name.function", "meta.function-call.generic"],
       "settings": {
         "foreground": "#81F900",
         "fontStyle": ""
