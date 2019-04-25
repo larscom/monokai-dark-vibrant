@@ -209,7 +209,7 @@
     },
     {
       "name": "Boolean",
-      "scope": ["constant.language.boolean"],
+      "scope": ["constant.language.boolean", "constant.language.json"],
       "settings": {
         "foreground": "#FF4DFF",
         "fontStyle": ""
