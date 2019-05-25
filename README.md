@@ -29,6 +29,10 @@ ext install larscom.monokai-dark-vibrant
 
 ![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/html.png)
 
+### JSX/TSX
+
+![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/react.png)
+
 ## Customization
 
 If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
