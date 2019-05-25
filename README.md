@@ -11,24 +11,27 @@
 
 This theme is optimized for TypeScript/JavaScript and HTML/CSS but other languages should work as well. This theme does not have any italic/bold fonts.
 
-
 ## Installing
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/larscom.monokai-dark-vibrant)
 
+```
+ext install larscom.monokai-dark-vibrant
+```
 
-## Preview 
+## Preview
 
-### Snippet
-![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/typescript_zoom.png)
+### TypeScript
 
-### Fullscreen
 ![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/typescript.png)
+
+### HTML
+
+![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/html.png)
 
 ## Customization
 
 If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
-
 
 ## Questions/suggestions?
 
